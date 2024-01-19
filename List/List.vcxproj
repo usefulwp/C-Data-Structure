@@ -19,11 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Double.h" />
     <ClInclude Include="SingleList.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Double.cpp" />
     <ClCompile Include="SingleList.c" />
-    <ClCompile Include="test.c" />
+    <ClCompile Include="test_SingleList.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

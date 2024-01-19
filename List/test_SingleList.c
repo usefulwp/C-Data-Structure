@@ -30,5 +30,6 @@ int main(void) {
 	printf("删除链表最后一个\n");
 	foreach(list, myprint);
 
+	freeSingleList(list);
 	return ;
 }

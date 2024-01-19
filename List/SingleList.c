@@ -112,7 +112,21 @@ int getLength(SingleList* list)
 		return 0;
 	return list->length;
 }
-
+void freeSingleList(SingleList* list) {
+	if (list == NULL)
+		return;
+	Node* cur = list->head;
+	Node* nextNode = cur;
+	while (cur) {
+		nextNode = cur->next;
+		free(cur);
+		cur = nextNode;
+	}
+	list->head = NULL;
+	list->length = 0;
+	free(list);
+	list = NULL;
+}
 void foreach(SingleList* list, void (*printFunc)(void*)) {
 	if (list == NULL || list->length == 0)return;
 	Node* p = list->head;

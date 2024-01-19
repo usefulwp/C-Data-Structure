@@ -17,6 +17,7 @@ bool insertIndex(SingleList* list, void* data, int index);
 bool deleteAtEnding(SingleList* list); 
 bool deleteIndex(SingleList* list, int index);
 int getLength(SingleList* list);
+void freeSingleList(SingleList* list);
 void foreach(SingleList* list, void (*printFunc)(void*));
 #endif // !SINGLELIST_H_
 

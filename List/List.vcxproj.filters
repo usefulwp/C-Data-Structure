@@ -13,9 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="测试">
+      <UniqueIdentifier>{fd31ad85-74cb-4bf5-b23f-39ca93f4da2c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SingleList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Double.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -23,8 +29,11 @@
     <ClCompile Include="SingleList.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="test.c">
+    <ClCompile Include="Double.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_SingleList.c">
+      <Filter>测试</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
