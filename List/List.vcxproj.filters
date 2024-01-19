@@ -15,11 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="list.c">
+    <ClInclude Include="SingleList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SingleList.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="list.h">
-      <Filter>头文件</Filter>
+    <ClCompile Include="test.c">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
