@@ -1,0 +1,5 @@
+﻿  DoubleList.c
+  test_doubleList.c
+  正在生成代码...
+F:\C projects\C-Data-Structure\DoubleList\DoubleList.c(18): warning C4715: “creatNode”: 不是所有的控件路径都返回值
+  DoubleList.vcxproj -> F:\C projects\C-Data-Structure\x64\Debug\DoubleList.exe
