@@ -13,10 +13,16 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="测试">
+      <UniqueIdentifier>{73d6af3f-c678-4ebd-baf0-6014284cddaa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CircleList.c">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_circleList.c">
+      <Filter>测试</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

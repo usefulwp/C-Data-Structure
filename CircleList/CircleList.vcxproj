@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CircleList.c" />
+    <ClCompile Include="test_circleList.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircleList.h" />
