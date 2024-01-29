@@ -1,2 +1,5 @@
-﻿  test_circleList.c
-  CircleList.vcxproj -> F:\C projects\C-Data-Structure\x64\Debug\CircleList.exe
+﻿  CircleList.c
+  test_circleList.c
+  正在生成代码...
+    正在创建库 F:\C projects\C-Data-Structure\x64\Debug\CircleList.lib 和对象 F:\C projects\C-Data-Structure\x64\Debug\CircleList.exp
+  CircleList.vcxproj -> F:\C projects\C-Data-Structure\x64\Debug\CircleList.dll

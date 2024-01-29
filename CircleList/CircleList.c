@@ -29,8 +29,11 @@ bool insertAtBegin(CircleList* list,void*data)
 	list->head = newNode;
 	if (list->tail)
 		list->tail->next = list->head;
-	else
+	else{
 		list->tail = newNode;
+		newNode->next = list->tail;
+	}
+		
 	list->length++;
 	return true;
 }

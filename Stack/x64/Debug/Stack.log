@@ -1,0 +1,5 @@
+﻿  Stack.c
+  test_stack.c
+  正在生成代码...
+F:\C projects\C-Data-Structure\Stack\Stack.c(34,9): warning C4047: “return”:“int”与“void *”的间接级别不同
+  Stack.vcxproj -> F:\C projects\C-Data-Structure\x64\Debug\Stack.exe
